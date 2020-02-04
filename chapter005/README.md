@@ -1,0 +1,14 @@
+## chapter005 コンフリクト、リベース
+- featureブランチを作成。checkout.
+- chapter002のcsvにbaseA.csvの内容を上書きする
+- commit,push
+- プルリクエスト作成する
+- ※マージはまだしない
+- develop checkout
+- featureブランチを作成。checkout.
+- chapter002のcsvにbaseB.csvの内容を上書きする
+- commit,push
+- プルリクエスト作成する
+- 先に作ったプルリクエストをマージ
+- 後に作ったプルリクエストがコンフリクトする
+- コンフリクトの内容を確認
